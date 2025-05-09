@@ -1,0 +1,187 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>하수구·변기·싱크대 막힘 뚫음 고압세척·배관내시경 전문업체</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fffaf0;
+      color: #000;
+    }
+    header {
+      background: #004a94;
+      color: white;
+      padding: 20px;
+      font-size: 2rem;
+      font-weight: bold;
+      text-align: center;
+    }
+    nav {
+      background: #0077cc;
+      text-align: center;
+      padding: 10px 0;
+    }
+    nav a {
+      font-size: 1rem;
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+      cursor: pointer;
+    }
+    section {
+      display: none;
+      padding: 20px;
+    }
+    section.active {
+      display: block;
+    }
+    img.full {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 30px;
+    }
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+    }
+    .gallery img {
+      width: 300px;
+      border-radius: 8px;
+    }
+    form {
+      display: block;
+      clear: both;
+      margin: 30px auto;
+      padding: 0 20px;
+      max-width: 500px;
+    }
+    form input, form textarea {
+      width: 100%;
+      margin-bottom: 10px;
+      padding: 10px;
+      font-size: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    form button {
+      width: 100%;
+      padding: 12px;
+      font-size: 1rem;
+      background: #0073e6;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+    }
+    .highlight-message {
+      font-size: 1.125rem;
+      font-weight: bold;
+      text-align: center;
+      line-height: 1.8;
+      margin: 40px 0 30px;
+    }
+    .business-footer {
+      font-size: 0.9rem;
+      text-align: center;
+      line-height: 1.6;
+      margin-top: 40px;
+      margin-bottom: 50px;
+    }
+    .phone {
+      display: block;
+      margin: 0 auto 50px;
+      background: #0055aa;
+      color: white;
+      font-size: 1rem;
+      font-weight: normal;
+      padding: 14px 20px;
+      border-radius: 10px;
+      text-decoration: none;
+      text-align: center;
+      max-width: 320px;
+    }
+  </style>
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+    window.onload = () => {
+      showSection('home');
+    };
+  </script>
+</head>
+<body>
+  <header>하수구·변기·싱크대 막힘 뚫음 고압세척·배관내시경 전문업체</header>
+  <nav>
+    <a onclick="showSection('home')">홈</a>
+    <a onclick="showSection('about')">회사소개</a>
+    <a onclick="showSection('services')">공사영역</a>
+    <a onclick="showSection('work')">시공사례</a>
+    <a onclick="showSection('contact')">고객센터</a>
+  </nav>
+
+  <section id="home" class="active">
+    <img src="/images/home.jpg" alt="메인 이미지" class="full" />
+    <div class="highlight-message">
+      막힌 곳,<br>
+      시원하게 해결해드립니다!
+    </div>
+  </section>
+
+  <section id="about">
+    <img src="/images/about.jpg" alt="회사소개" class="full" />
+    <img src="/images/plumber.jpg" alt="배관 기사 사진" class="full" />
+  </section>
+
+  <section id="services">
+    <img src="/images/services.jpg" class="full" />
+    <img src="/images/work1.jpg" class="full" />
+    <img src="/images/work2.jpg" class="full" />
+  </section>
+
+  <section id="work">
+    <div class="gallery">
+      <img src="/images/construction1.jpg" />
+      <img src="/images/construction2.jpg" />
+      <img src="/images/construction3.jpg" />
+      <img src="/images/construction4.jpg" />
+      <img src="/images/construction5.jpg" />
+      <img src="/images/construction6.jpg" />
+      <img src="/images/construction7.jpg" />
+      <img src="/images/construction8.jpg" />
+      <img src="/images/construction9.jpg" />
+      <img src="/images/construction10.jpg" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <img src="/images/contact.jpg" alt="고객센터" class="full" />
+    <form action="https://formspree.io/f/xnndjbwk" method="POST">
+      <input type="text" name="name" placeholder="이름" required />
+      <input type="tel" name="phone" placeholder="연락처" required />
+      <input type="email" name="email" placeholder="이메일" required />
+      <textarea name="message" placeholder="문의 내용" required></textarea>
+      <button type="submit">문의하기</button>
+    </form>
+  </section>
+
+  <div class="business-footer">
+    상호 : 하수구막힘변기막힘싱크대막힘<br>
+    대표번호 : 010-3259-8818<br>
+    Copyright(C)2025하수구막힘변기막힘싱크대막힘 All rights reserved.
+  </div>
+
+  <footer>
+    <a href="tel:01032598818" class="phone">📞 010-3259-8818 전화하기</a>
+  </footer>
+</body>
+</html>
