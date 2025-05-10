@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>하수구·변기·싱크대 막힘 고압세척·배관내시경 전문업체</title>
+  <!-- 생략: 동일 CSS 및 스크립트 -->
+</head>
+<body>
+  <header>
+    <div style="text-align:center; padding:30px 20px 10px; line-height:1.6;">
+      <h1 style="font-size:3rem; margin:0;">하수구·변기·싱크대</h1>
+      <h2 style="font-size:2.25rem; margin:0;">고압세척·내시경 전문업체</h2>
+    </div>
+  </header>
+
+  <nav>
+    <a onclick="showSection('home')">홈</a>
+    <a onclick="showSection('about')">회사소개</a>
+    <a onclick="showSection('services')">공사영역</a>
+    <a onclick="showSection('work')">시공사례</a>
+    <a onclick="showSection('contact')">고객센터</a>
+  </nav>
+
+  <section id="home" class="active">
+    <div style="background:white; padding:30px 20px 50px; text-align:center;">
+      <img src="images/home.jpg" alt="메인 이미지" class="full" style="margin-bottom:30px;" />
+    </div>
+  </section>
+
+  <section id="about">
+    <img src="images/about.jpg" alt="회사소개" class="full" />
+    <img src="images/plumber.jpg" alt="배관 기사 사진" class="full" />
+  </section>
+
+  <section id="services">
+    <img src="images/services.jpg" class="full" />
+    <img src="images/work1.jpg" class="full" />
+    <img src="images/work2.jpg" class="full" />
+  </section>
+
+  <section id="work">
+    <div class="gallery">
+      <img src="images/construction1.jpg" />
+      <img src="images/construction2.jpg" />
+      <img src="images/construction3.jpg" />
+      <img src="images/construction4.jpg" />
+      <img src="images/construction5.jpg" />
+      <img src="images/construction6.jpg" />
+      <img src="images/construction7.jpg" />
+      <img src="images/construction8.jpg" />
+      <img src="images/construction9.jpg" />
+      <img src="images/construction10.jpg" />
+    </div>
+  </section>
+
+  <section id="contact">
+    <img src="images/contact.jpg" alt="고객센터" class="full" />
+    <form action="https://formspree.io/f/xnndjbwk" method="POST">
+      <input type="text" name="name" placeholder="이름" required />
+      <input type="tel" name="phone" placeholder="연락처" required />
+      <input type="email" name="email" placeholder="이메일" required />
+      <textarea name="message" placeholder="문의 내용" required></textarea>
+      <button type="submit">문의하기</button>
+    </form>
+  </section>
+
+  <div class="business-footer" style="background:#eee; padding:30px 20px; color:#555;">
+    상호 : <strong>하수구막힘변기막힘싱크대막힘</strong><br>
+    대표번호 : 010-3683-7741<br>
+    Copyright(C)2025 <strong>하수구막힘변기막힘싱크대막힘</strong> All rights reserved.
+  </div>
+</body>
+</html>
