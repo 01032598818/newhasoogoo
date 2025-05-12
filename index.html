@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="naver-site-verification" content="15f15575255d977b80ce57517dcbe0f1799f2a06" />
+  <meta name="naver-site-verification" content="84b3ab50a6d1045a16c9c46c3c17f15b41d8a52b" />
+  <title>하수구·변기·싱크대 막힘 전문업체</title>
+  <style>
+    html {
+      -webkit-text-size-adjust: 100%;
+      text-size-adjust: 100%;
+    }
+    html, body {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      font-size: 100%;
+      overflow-x: hidden;
+      background: #fffaf0;
+      color: #000;
+    }
+    body {
+      font-family: 'Noto Sans KR', sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+
+    .container {
+      width: 100%;
+      max-width: 480px;
+      margin: 0 auto;
+    }
+    header {
+      background: #004a94;
+      color: white;
+      padding: 1.25rem;
+      font-size: 1.6rem;
+      font-weight: bold;
+      text-align: center;
+      line-height: 1.5;
+      white-space: normal;
+    }
+    nav {
+      display: flex;
+      flex-wrap: nowrap;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      background: #0077cc;
+      padding: 0.625rem 0;
+      justify-content: center;
+    }
+    nav a {
+      font-size: 0.95rem;
+      color: white;
+      padding: 0 1rem;
+      text-decoration: none;
+      font-weight: bold;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    section {
+      display: none;
+      padding: 1.25rem;
+    }
+    section.active {
+      display: block;
+    }
+    img.full {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 2rem;
+    }
+    .call-banner {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 2rem 0 3rem;
+    }
+    .call-button {
+      display: flex;
+      align-items: center;
+      gap: 0.875rem;
+      background-color: #0055aa;
+      color: white;
+      font-size: 1.25rem;
+      font-weight: 900;
+      padding: 1rem 1.5rem;
+      border-radius: 1rem;
+      text-decoration: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      transition: background 0.3s;
+      white-space: nowrap;
+    }
+    .call-button:hover {
+      background-color: #003f88;
+    }
+    .call-icon {
+      display: inline-block;
+      width: 1.5rem;
+      height: 1.5rem;
+      background: radial-gradient(circle at 30% 30%, #ff0000, #880000);
+      -webkit-mask: url('data:image/svg+xml;utf8,<svg fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.093 15.093 0 006.59 6.59l2.2-2.2a1 1 0 011.05-.24c1.12.37 2.33.57 3.54.57a1 1 0 011 1v3.5a1 1 0 01-1 1C9.61 21 3 14.39 3 6a1 1 0 011-1h3.5a1 1 0 011 1c0 1.21.2 2.42.57 3.54a1 1 0 01-.24 1.05l-2.2 2.2z"/></svg>') no-repeat center;
+      mask: url('data:image/svg+xml;utf8,<svg fill="white" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M6.62 10.79a15.093 15.093 0 006.59 6.59l2.2-2.2a1 1 0 011.05-.24c1.12.37 2.33.57 3.54.57a1 1 0 011 1v3.5a1 1 0 01-1 1C9.61 21 3 14.39 3 6a1 1 0 011-1h3.5a1 1 0 011 1c0 1.21.2 2.42.57 3.54a1 1 0 01-.24 1.05l-2.2 2.2z"/></svg>') no-repeat center;
+      background-size: 100% 100%;
+    }
+    .call-note {
+      font-size: 0.9rem;
+      color: #000;
+      margin-top: 0.5rem;
+      text-align: center;
+    }
+  </style>
+  <script>
+    function showSection(id) {
+      document.querySelectorAll('section').forEach(s => s.classList.remove('active'));
+      document.getElementById(id).classList.add('active');
+    }
+    window.onload = () => {
+      showSection('home');
+    };
+  </script>
+</head>
+<body>
+  <div class="container">
+    <section id="home" class="active">
+      <img src="images/home.jpg" alt="메인 이미지" class="full" />
+      <div class="call-banner">
+        <a href="tel:01036837741" class="call-button">
+          <span class="call-icon"></span> 010-3683-7741 전화하기
+        </a>
+        <div class="call-note">※ 모바일에서 버튼을 누르면 바로 전화 연결됩니다.</div>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
