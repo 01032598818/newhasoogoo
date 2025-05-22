@@ -1,0 +1,29 @@
+{
+  "redirects": [
+    {
+      "source": "http://www.hasoogoo.it.kr/:path*",
+      "destination": "https://www.hasoogoo.it.kr/:path*",
+      "permanent": true
+    }
+  ],
+  "headers": [
+    {
+      "source": "/robots.txt",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "text/plain"
+        }
+      ]
+    },
+    {
+      "source": "/rss.xml",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/rss+xml"
+        }
+      ]
+    }
+  ]
+}
