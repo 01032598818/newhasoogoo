@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>하수구·변기·싱크대 막힘 뚫음 소식</title>
+    <link>http://www.hasoogoo.it.kr</link>
+    <description>하수구, 변기, 싱크대, 고압세척 등 뚫음 관련 최신 소식</description>
+    <language>ko</language>
+
+    <item>
+      <title>하수구 뚫음 사례 - 그리스와 고무 조각</title>
+      <link>https://www.hasoogoo.it.kr/work/1</link>
+      <description>고무 조각과 기름 찌꺼기로 막힌 하수구를 고압세척한 실제 사례를 확인해보세요.</description>
+      <pubDate>Tue, 21 May 2025 00:00:00 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>싱크대 막힘 - 고구마 껍질</title>
+      <link>https://www.hasoogoo.it.kr/work/2</link>
+      <description>싱크대 배수관이 고구마 껍질로 막혀 물이 흐르지 않는 문제를 고압세척으로 해결했습니다.</description>
+      <pubDate>Tue, 21 May 2025 00:00:00 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>변기 역류 원인 - 프리미엄 티슈</title>
+      <link>https://www.hasoogoo.it.kr/work/3</link>
+      <description>프리미엄 티슈가 변기 배관을 막은 실제 사례입니다. 모든 서비스 완료 후 상태를 확인하였습니다.</description>
+      <pubDate>Tue, 21 May 2025 00:00:00 +0900</pubDate>
+    </item>
+
+    <item>
+      <title>고압세척 장비 안내</title>
+      <link>https://www.hasoogoo.it.kr/work/4</link>
+      <description>RIDGID 고압세척 장비로 작업한 실제 사례입니다. 장비 종류도 함께 확인하실 수 있습니다.</description>
+      <pubDate>Tue, 21 May 2025 00:00:00 +0900</pubDate>
+    </item>
+
+  </channel>
+</rss>
