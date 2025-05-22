@@ -1,0 +1,33 @@
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.hasoogoo.it.kr/</loc>
+    <priority>1.0</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hasoogoo.it.kr/rss.xml</loc>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hasoogoo.it.kr/work/1</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hasoogoo.it.kr/work/2</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hasoogoo.it.kr/work/3</loc>
+    <priority>0.9</priority>
+  </url>
+
+  <url>
+    <loc>https://www.hasoogoo.it.kr/work/4</loc>
+    <priority>0.9</priority>
+  </url>
+
+</urlset>
