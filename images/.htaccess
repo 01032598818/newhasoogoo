@@ -1,9 +1,0 @@
-# .htaccess 파일 내용
-<IfModule mod_rewrite.c>
-  RewriteEngine On
-
-  # 외부 도메인에서 이미지 직접 접근 차단
-  RewriteCond %{HTTP_REFERER} !^$
-  RewriteCond %{HTTP_REFERER} !^https://(www\.)?yourdomain\.com [NC]
-  RewriteRule \.(jpg|jpeg|png|gif|webp)$ - [F,NC]
-</IfModule>
